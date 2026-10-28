@@ -20,3 +20,5 @@ print(round(rata_rata, 2))
 print("\nSiswa dengan nilai minimal 75:")
 nilai_baik = data[data["nilai_kuis"] >= 75]
 print(nilai_baik[["nama", "nilai_kuis"]])
+
+#py -m pip install pandas
